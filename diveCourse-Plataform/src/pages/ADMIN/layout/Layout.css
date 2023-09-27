@@ -1,0 +1,15 @@
+.layout {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  height: auto;
+  min-width: 100vw;
+  width: auto;
+}
+
+.mainContent {
+  margin-left: 150px;
+
+  min-width: 100% - 150px;
+  height: 100%;
+  width: auto;
+}

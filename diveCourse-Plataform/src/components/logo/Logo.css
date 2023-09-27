@@ -1,0 +1,23 @@
+.logo {
+  width: 130px;
+  padding-left: 10px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 7px;
+  
+}
+
+.logoImg {
+  justify-self: flex-start;
+  height: 50px;
+  width: auto;
+}
+
+.logoTxt {
+  justify-self: flex-end;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: #3d55dd;
+}

@@ -1,0 +1,27 @@
+.sbBtn {
+  height: 80px;
+  width: 130px;
+  padding-left: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.sbBtn:hover {
+  background-color: rgb(214, 224, 255);
+}
+
+.icon {
+  font-size: 30px;
+  color: #1d39d8dc;
+  justify-self: flex-start;
+}
+
+.icnText {
+  font-size: 15px;
+  font-family: "Mooli", sans-serif;
+  justify-self: flex-end;
+}

@@ -1,0 +1,78 @@
+.topBar {
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid #1d39d829;
+  z-index: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 60px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  justify-content: center;
+  height: 70px;
+  width: 130px;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+.circleImg {
+  height: 35px;
+  width: 35px;
+  border: 1px solid #3f3f3f65;
+  border-radius: 50%;
+  background-color: #3d55dd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconPlaceHolder {
+  height: 70%;
+  width: 70%;
+  color: #fbfafa;
+}
+
+.userInfo:hover .circleImg {
+  background-color: #1332df;
+}
+
+.userInfo:hover {
+  background-color: rgb(214, 224, 255);
+}
+
+.userName {
+  font-size: 15px;
+  font-family: "Mooli", sans-serif;
+}
+
+.logout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-right: 50px;
+  height: 70px;
+  width: 130px;
+  border-radius: 20px;
+}
+.logoutIcon {
+  font-size: 24px;
+  color: #041ca9;
+}
+
+.logoutTxt {
+  font-size: 15px;
+  font-family: "Mooli", sans-serif;
+}
+
+.logout:hover {
+  background-color: rgb(214, 224, 255);
+}

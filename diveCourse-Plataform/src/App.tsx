@@ -6,6 +6,8 @@ import AdminHome from "./pages/ADMIN/adminHome/AdminHome";
 import AllStudents from "./pages/ADMIN/adminStudents/allStudents/AllStudents";
 import CreateStudent from "./pages/ADMIN/adminStudents/createStudent/CreateStudent";
 import SearchStudent from "./pages/ADMIN/adminStudents/searchStudent/SearchStudent";
+import AdminCourses from "./pages/ADMIN/adminCourses/AdminCourses";
+import AdminCreate from "./pages/ADMIN/adminCreate/AdminCreate";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
               element={<CreateStudent />}
             />
             <Route path="/admin/students/search" element={<SearchStudent />} />
+            <Route path="/admin/courses" element={<AdminCourses />} />
+            <Route path="/admin/create" element={<AdminCreate />} />
           </Route>
         </Routes>
       </Router>

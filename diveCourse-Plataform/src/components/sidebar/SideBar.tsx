@@ -11,7 +11,7 @@ const sideBarContent = [
   {
     icon: RxDashboard,
     displayText: "Dashboard",
-    path: "/admin/dashboard",
+    path: "/admin",
   },
   {
     icon: PiStudent,

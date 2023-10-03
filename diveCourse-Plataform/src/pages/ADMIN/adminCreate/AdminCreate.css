@@ -1,0 +1,214 @@
+.createPage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxCreation {
+  margin: 50px 0;
+  height: 650px;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 4px rgb(171, 171, 171);
+  border-radius: 20px;
+  align-items: center;
+  background-color: #faf8f8;
+}
+
+.boxDynamic {
+  width: 90%;
+  height: 70%;
+  box-shadow: 0px 2px 4px #252525;
+  border-radius: 10px;
+  background-image: url("/bg-courseCr2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.layer-blur-dark {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(249, 249, 249, 0.532);
+  backdrop-filter: blur(2px);
+  border-radius: 10px;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  font-family: "Mooli", sans-serif;
+  font-weight: normal;
+  color: #0e0e0e;
+}
+
+.generalBox {
+  height: 60%;
+  width: 80%;
+  background-color: #ffffffa4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.headTxt {
+  font-size: 35px;
+
+  margin-bottom: 50px;
+  color: #0a0a0a;
+}
+
+.rowInput {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.inputTitle {
+  height: 30px;
+}
+.pCourseCreation {
+  font-size: 23px;
+  font-family: "Mooli", sans-serif;
+  font-weight: normal;
+}
+
+.infoTxtArea {
+  text-align: center;
+}
+
+.btnDiv {
+  width: 100%;
+  height: 40px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnNext {
+  border-radius: 50%;
+}
+
+.arrow {
+  color: #3b53dc;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  color: #0b26c2;
+}
+
+.lessonPg {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid white; */
+}
+
+.lessonTxt {
+  text-align: center;
+  /* border: 1px solid white; */
+  height: auto;
+  margin: 10px 0;
+  color: #1f1f1f;
+  font-weight: normal;
+  position: absolute;
+  top: 10px;
+}
+.lessonName {
+}
+
+.ulLessons {
+  height: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid white; */
+  /* color: #252525; */
+  font-size: 20px;
+  gap: 5px;
+  border-radius: 10px;
+  background-color: #edededbf;
+  padding: 50px 0;
+}
+
+.addBtn {
+  height: 50px;
+  width: 130px;
+  background-color: #ffffff;
+  color: #01051c;
+  font-size: 20px;
+  font-family: "Mooli", sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px #000000;
+  margin-top: 5px;
+  position: absolute;
+  top:360px;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.boxExam {
+    margin-top: 80px;
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: #edededbf;
+}
+
+.divBtn{
+
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addBtn:hover{
+    background-color: rgb(214, 224, 255);
+}
+
+.createCourseBtn{
+    height: 80px;
+    width: 200px;
+    background-color: #ffffff;
+    color: #01051c;
+    font-size: 20px;
+    font-family: "Mooli", sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #000000;
+    margin-top: 5px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: normal;
+}
+.createCourseBtn:hover{
+    background-color: rgb(214, 224, 255);
+}

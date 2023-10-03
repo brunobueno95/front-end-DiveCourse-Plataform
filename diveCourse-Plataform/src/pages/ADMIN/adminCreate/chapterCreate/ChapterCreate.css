@@ -1,0 +1,9 @@
+.boxCreateChapter {
+  height: 400px;
+  width: 650px;
+  background-color: #faf8f8;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,10 @@
+.boxExamCreate {
+  min-height: 400px;
+  height: auto;
+  width: 650px;
+  background-color: #faf8f8;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
